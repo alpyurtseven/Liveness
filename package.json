@@ -1,0 +1,25 @@
+{
+  "name": "livenessjs-test",
+  "version": "1.0.10",
+  "description": "Liveness detection package with mediapipe",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
+  },
+  "keywords": [
+    "liveness",
+    "mediapipe"
+  ],
+  "author": "Alperen Yurtseven",
+  "license": "ISC",
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/face_mesh": "^0.4.1633559619"
+  }
+}
